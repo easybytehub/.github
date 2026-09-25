@@ -24,4 +24,4 @@ Somos una cooperativa: las decisiones sobre qué se construye y qué se libera l
 
 ---
 
-**[easybyte.es](https://easybyte.es)** · [hola@easybyte.es](mailto:hola@easybyte.es)
+**[easybyte.es](https://easybyte.es)** · [contact@easybyte.es](mailto:contact@easybyte.es)
