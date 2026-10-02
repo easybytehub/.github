@@ -1,27 +1,41 @@
 ## EasyByte
 
-Cooperativa de desarrollo de software a medida. Publicamos libre lo que primero nos sirve a nosotros: herramientas de trabajo, no demos.
+A worker cooperative of software developers in Madrid. We build custom software, and we publish as open source the tools we need ourselves: working tools, not demos.
 
-### Qué hay aquí
+### EasyxLab
 
-**[verifactu-lint](https://github.com/easybytehub/verifactu-lint)** — Python, Apache-2.0
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/easybytehub/.github/main/profile/easyxlab-banner-dark.png">
+  <img alt="EasyxLab — Measured, not assumed." src="https://raw.githubusercontent.com/easybytehub/.github/main/profile/easyxlab-banner.png">
+</picture>
 
-Comprueba en CI que los registros de facturación que genera tu SIF cumplen el RRSIF (RD 1007/2023 y Orden HAC/1177/2024). Le pasas el XML que produce tu código y te dice dónde incumple, citando el artículo. Solo lectura: no es un SIF.
+EasyxLab is our research lab: open studies and verification tools for the rules software has to follow. Every tool cites the rule behind each finding, and every study publishes its method, scripts and aggregated data.
 
-**[hullwork](https://github.com/easybytehub/hullwork)** — Python
+**Tools**
 
-Convierte los errores de producción en pull requests en borrador, listos para revisar. Tu forja, tu gestor de errores, tu modelo — y una persona decidiendo cada merge. Pre-alfa.
+- **[ai-mark-lint](https://github.com/easybytehub/ai-mark-lint)**: checks that AI-generated images, video and audio still carry the machine-readable marks required by the EU AI Act art. 50(2), California SB 942 and China's GB 45438 (C2PA, IPTC, AIGC).
+- **[attest-lint](https://github.com/easybytehub/attest-lint)**: flags pinned PyPI dependencies whose PEP 740 attestations regressed or whose Trusted Publisher changed.
+- **[crs-lint](https://github.com/easybytehub/crs-lint)**: lints OECD CRS XML offline against the official XSD and the Status Message business rules, citing the OECD error code.
 
-**[docshield](https://github.com/easybytehub/docshield)** — TypeScript, GPL-3.0
+**[Studies](https://github.com/easybytehub/easyxlab)**
 
-Protección de documentos.
+- **S1, Verifactu conformance**: 10 of 35 files presented as valid records (28.6%) contain at least one error.
+- **S2, spoofed AI crawlers**: 39.3% of 16,548 claims to be an AI or search crawler were spoofed.
+- **S3, AI provenance marks**: every pixel or container rewrite removed the embedded C2PA manifest (124/124).
+- **S4, Wikidata drug labels**: about 0.9% of 34,207 multilingual labels are wrong, a lower bound.
 
-### Cómo trabajamos
+### Other tools
 
-Cada release publica su procedencia con attestations de GitHub, firmadas con OIDC efímero: se puede comprobar qué commit, qué workflow y qué runner produjeron cada artefacto. No hay ninguna clave privada custodiada por nadie.
+- **[verifactu-lint](https://github.com/easybytehub/verifactu-lint)**: checks in CI that the invoicing records your software generates comply with Spain's Verifactu rules (RD 1007/2023 and Orden HAC/1177/2024), citing the article. Read-only: it is not invoicing software.
+- **[hullwork](https://github.com/easybytehub/hullwork)**: turns production errors into draft pull requests, with a person deciding every merge. Pre-alpha.
+- **[docshield](https://github.com/easybytehub/docshield)**: document protection.
 
-Somos una cooperativa: las decisiones sobre qué se construye y qué se libera las toman las personas que lo construyen.
+### How we work
+
+Every release publishes its provenance with GitHub attestations signed with short-lived OIDC credentials: you can check which commit, workflow and runner produced each artifact. Nobody holds a private signing key.
+
+We are a cooperative: the people who build the software decide what gets built and what gets released.
 
 ---
 
-**[easybyte.es](https://easybyte.es)** · [contact@easybyte.es](mailto:contact@easybyte.es)
+**[easybyte.es](https://easybyte.es)** · contact@easybyte.es
