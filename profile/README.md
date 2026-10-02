@@ -20,7 +20,7 @@ EasyxLab is our research lab: open studies and verification tools for the rules 
 **[Studies](https://github.com/easybytehub/easyxlab)**
 
 - **S1, Verifactu conformance**: 10 of 35 files presented as valid records (28.6%) contain at least one error.
-- **S2, spoofed AI crawlers**: 39.3% of 16,548 claims to be an AI or search crawler were spoofed.
+- **S2, spoofed AI crawlers**: 39.3% of 16,548 claims to be an AI or search crawler, on three small sites, were spoofed.
 - **S3, AI provenance marks**: every pixel or container rewrite removed the embedded C2PA manifest (124/124).
 - **S4, Wikidata drug labels**: about 0.9% of 34,207 multilingual labels are wrong, a lower bound.
 
