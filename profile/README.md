@@ -23,8 +23,8 @@ EasyxLab is our research lab: open studies and verification tools for the rules 
 - **S2, spoofed AI crawlers**: 39.3% of 16,548 claims to be an AI or search crawler, on three small sites, were spoofed.
 - **S3, AI provenance marks**: every pixel or container rewrite removed the embedded C2PA manifest (124/124).
 - **S4, Wikidata drug labels**: about 0.9% of 34,207 multilingual labels are wrong, a lower bound.
-- **S5, PyPI attestations**: the latest version is attested for 3,479 of 14,995 top PyPI projects (23.2%); 138 that once attested no longer do.
-- **S8, Spain's public-sector websites**: of 5,130 home pages served over HTTPS, 1,688 (32.9%) send HSTS; 4 of 5,570 entities serve a strictly valid `security.txt`.
+- **S5, PyPI attestations**: the latest version is attested for 3,479 of 14,995 top PyPI projects (23.2%); 138 projects that once attested no longer do in the line `pip` installs.
+- **S8, Spain's public-sector websites**: of 5,130 home pages served over HTTPS, 1,688 (32.9%) send HSTS; 4 of 5,570 entities serve a `security.txt` that is strictly valid under RFC 9116.
 
 ### Other tools
 
