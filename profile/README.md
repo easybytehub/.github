@@ -17,7 +17,7 @@ EasyxLab is our research lab: open studies and verification tools for the rules 
 - **[attest-lint](https://github.com/easybytehub/attest-lint)**: flags pinned PyPI dependencies whose PEP 740 attestations regressed or whose Trusted Publisher changed.
 - **[crs-lint](https://github.com/easybytehub/crs-lint)**: lints OECD CRS XML offline against the official XSD and the Status Message business rules, citing the OECD error code.
 
-**[Studies](https://github.com/easybytehub/easyxlab)**
+**[Studies](https://easybyte.es/lab/studies/)**: each paper is on the web, in HTML and PDF; the method, scripts and data to reproduce it are in [easyxlab](https://github.com/easybytehub/easyxlab).
 
 - **S1, Verifactu conformance**: 10 of 35 files presented as valid records (28.6%) contain at least one error.
 - **S2, spoofed AI crawlers**: 39.3% of 16,548 claims to be an AI or search crawler, on three small sites, were spoofed.
