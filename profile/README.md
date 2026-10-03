@@ -24,6 +24,7 @@ EasyxLab is our research lab: open studies and verification tools for the rules 
 - **S3, AI provenance marks**: every pixel or container rewrite removed the embedded C2PA manifest (124/124).
 - **S4, Wikidata drug labels**: about 0.9% of 34,207 multilingual labels are wrong, a lower bound.
 - **S5, PyPI attestations**: the latest version is attested for 3,479 of 14,995 top PyPI projects (23.2%); 138 projects that once attested no longer do in the line `pip` installs.
+- **S6, AI marks on Wikimedia Commons**: files with a machine-readable AI mark rose from 25.8% of January–May 2026 uploads to 50.2% of June–July uploads. The jump came in June and cannot be attributed to the EU AI Act.
 - **S8, Spain's public-sector websites**: of 5,130 home pages served over HTTPS, 1,688 (32.9%) send HSTS; 4 of 5,570 entities serve a `security.txt` that is strictly valid under RFC 9116.
 
 ### Other tools
